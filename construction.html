@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolobathaba Media Group</title>
+
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="Assets/FA/css/all.min.css" />
+  <link rel="stylesheet" href="Assets/css/footer.css" />
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    
+     <nav>
+
+      <a href="#" class="logo"><img src="images/BMI-01.png" alt="Bolobathaba Media Group Logo" width="250"
+          height="60"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html#serv" >Services</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="index.html">Team</a></li>
+          <li><a href="index.html#abtss">About Us</a></li>
+          <li><a href="index.html#conta">Contact Us</a></li>
+          <a id="facebook" href="https://www.facebook.com/bolobathaba" target="_blank" class="fab fa-facebook"></a>
+          <a id="youtube" href="https://www.youtube.com/channel/UCruh9HBPufY6nCnllYuXEfQ" target="_blank"
+            class="fab fa-youtube"></a>
+          <a id="instagram" href="https://www.instagram.com/bolobathabamedia/?hl=en" target="_blank"
+            class="fab fa-instagram"></a>
+          <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i></i>
+    </nav>
+
+<h1>Bolobathaba Media Group</h1>
+
+<h2>Sorry for inconvinience</h2>
+<h3>This Page Is under construction</h3>
+
+
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!----------------------Java script for toggle menu--- -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-320px";
+    }
+  </script>
+
+
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+
+</html>
